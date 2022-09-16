@@ -74,12 +74,23 @@ main {
   display: flex;
   align-items: center;
 }
-.subsection-one {
+.section-template-primary .subsection-one {
   margin: 32px 24px;
-  width: 66%;
+  width: 60%;
 }
-.subsection-two {
-  width: 34%;
+.section-template-primary .subsection-two {
+  width: 40%;
+}
+.sidebar-item {
+  display: flex;
+}
+.sidebar-item-image {
+  height: auto;
+  margin: 14px;
+  width: 35%;
+}
+.sidebar-item-text {
+  width: 65%;
 }
 .section-template-secondary {
   display: grid;
