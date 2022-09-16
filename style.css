@@ -1,14 +1,13 @@
 nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   background-color: white;
   width: 100%;
 }
 nav.desktop-display {
-  padding-right: 8px;
-  padding-left: 24px;
   height: 64px;
 }
 
@@ -21,18 +20,20 @@ h1 {
   font-weight: 300;
   height: 32px;
   margin: 0;
-  display: inline;
 }
 
 .nav-inset-wrapper-1,
 .nav-inset-wrapper-2 {
   display: flex;
   align-items: center;
-  width: 50%;
+}
+.nav-inset-wrapper-1 {
+  padding-left: 24px;
 }
 
 .nav-inset-wrapper-2 {
   justify-content: flex-end;
+  padding-right: 24px;
 }
 ul {
   display: flex;
@@ -41,7 +42,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-
 li {
   margin-right: 16px;
 }
@@ -58,8 +58,43 @@ a:active {
   font-weight: 700;
 }
 
+img,
+video {
+  max-width: 100%;
+}
 .mobile-display {
   display: none;
+}
+
+main {
+  margin-top: 64px;
+}
+
+.section-template-primary {
+  display: flex;
+  align-items: center;
+}
+.subsection-one {
+  margin: 32px 24px;
+  width: 66%;
+}
+.subsection-two {
+  width: 34%;
+}
+.section-template-secondary {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  gap: 32px 32px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Utility classes*/
+.center-text {
+  text-align: center;
 }
 
 @media only screen and (max-width: 576px) {
