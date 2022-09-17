@@ -1,5 +1,5 @@
 body {
-  background-color: hsl(197, 28%, 95%);
+  background-color: hsl(197, 28%, 97%);
   color: hsl(0, 1%, 43%);
   font-family: "Roboto", sans-serif;
 
@@ -230,7 +230,90 @@ footer a {
   .desktop-display {
     display: none;
   }
-  .mobile-display {
-    display: inline-block;
+
+  img.mobile-display {
+    display: inline;
+  }
+  nav.mobile-display {
+    display: flex;
+    align-items: center;
+    height: 64px;
+  }
+  nav.mobile-display ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .section-banner div.subsection-one {
+    margin-bottom: 0;
+  }
+  .section-banner div.subsection-two {
+    margin: 32px 16px;
+  }
+  .section-banner h2,
+  .section-banner p {
+    width: 100%;
+  }
+  .section-banner p {
+    margin: 32px 0 24px 0;
+  }
+  .section-banner button {
+    width: 100%;
+  }
+
+  .section-courses h3,
+  .section-thesis h3 {
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+  div.mobile-display {
+    display: block;
+  }
+  div.mobile-display h4 {
+    background-color: hsl(0, 0%, 83%);
+    margin-bottom: 8px;
+    padding: 16px 24px;
+  }
+  .section-courses {
+    background-color: hsl(0, 0%, 100%);
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .section-events div.subsection-two {
+    margin: 0;
+  }
+  .section-events .sidebar-item-text {
+    margin: 32px;
+  }
+  .section-events .subsection-two .sidebar-item {
+    flex-wrap: wrap;
+  }
+  .section-events .subsection-two .sidebar-item-image,
+  .section-events .subsection-two .sidebar-item-text {
+    width: 100%;
+  }
+  .section-events p.guest-lecture-link {
+    margin-bottom: 0;
+  }
+
+  .section-template-primary {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section-template-primary .subsection-one,
+  .section-template-primary .subsection-two {
+    width: 100%;
+  }
+  .section-template-primary .subsection-one {
+    margin: 0;
+  }
+  .section-template-primary .subsection-two {
+    margin: 32px 16px;
+  }
+  .section-template-primary .subsection-one {
+    margin-bottom: 24px;
+  }
+  footer {
+    border-top: none;
   }
 }
