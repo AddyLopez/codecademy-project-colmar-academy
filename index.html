@@ -7,6 +7,12 @@
     <meta
       description="Student project for Codecademy. Learning objective: To design and create the home page for a new school making use of the wireframes provided. Coded by Addy López."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Codecademy Project: Colmar Academy Home Page</title>
   </head>
@@ -53,7 +59,7 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="section-banner">
         <div class="section-template-primary">
           <div class="subsection-one">
             <img
@@ -86,7 +92,7 @@
               Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur
               dolor consequat, tristique ligula."
             </p>
-            <p>Emanuel, Sr Strategist at Hiring.com</p>
+            <p class="quotation-source">Emanuel, Sr Strategist at Hiring.com</p>
           </div>
           <div class="subsection-two">
             <div class="sidebar-item">
@@ -152,69 +158,81 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="section-courses">
         <h3 class="center-text">Start learning</h3>
         <div class="section-template-secondary">
-          <div>
+          <div class="course-card">
             <img
               src="assets/media/images/course-software.jpg"
               alt="Two desktop computers on a desk illuminated by lamplight in a dark room."
             />
-            <h4>Software engineering</h4>
-            <p>COURSES</p>
-            <p>Web Development, Mobile Development, iOT, APIs</p>
+            <div class="course-card-text">
+              <h4>Software engineering</h4>
+              <p>COURSES</p>
+              <p>Web Development, Mobile Development, iOT, APIs</p>
+            </div>
           </div>
-          <div>
+          <div class="course-card">
             <img
               src="assets/media/images/course-computer-art.jpg"
               alt="A mobile phone held in a left hand at center above a wooden table with a cup of coffee to the left."
             />
-            <h4>Computer art</h4>
-            <p>COURSES</p>
-            <p>
-              Imaging & Design, Web Design, Motion Graphics & Visual Effects,
-              Computer Animation
-            </p>
+            <div class="course-card-text">
+              <h4>Computer art</h4>
+              <p>COURSES</p>
+              <p>
+                Imaging & Design, Web Design, Motion Graphics & Visual Effects,
+                Computer Animation
+              </p>
+            </div>
           </div>
-          <div>
+          <div class="course-card">
             <img
               src="assets/media/images/course-design.jpg"
               alt="A photographer in a plaid button-up shirt stands poised facing right with an analog camera at the hip against a grassy background."
             />
-            <h4>Design</h4>
-            <p>COURSES</p>
-            <p>User Experience Design, User Research, Visual Design</p>
+            <div class="course-card-text">
+              <h4>Design</h4>
+              <p>COURSES</p>
+              <p>User Experience Design, User Research, Visual Design</p>
+            </div>
           </div>
-          <div>
+          <div class="course-card">
             <img
               src="assets/media/images/course-data.jpg"
               alt="A laptop computer displaying analytic graphs rests open atop a glassy desk."
             />
-            <h4>Data</h4>
-            <p>COURSES</p>
-            <p>Data Science, Big Data, SQL, Data Visualization</p>
+            <div class="course-card-text">
+              <h4>Data</h4>
+              <p>COURSES</p>
+              <p>Data Science, Big Data, SQL, Data Visualization</p>
+            </div>
           </div>
-          <div>
+          <div class="course-card">
             <img
               src="assets/media/images/course-business.jpg"
               alt="A close-up of stately wooden chess pieces against a quilted, chestnut leather backdrop."
             />
-            <h4>Business</h4>
-            <p>COURSES</p>
-            <p>Product Development, Business Development, Startup</p>
+            <div class="course-card-text">
+              <h4>Business</h4>
+              <p>COURSES</p>
+              <p>Product Development, Business Development, Startup</p>
+            </div>
           </div>
-          <div>
+          <div class="course-card">
             <img
               src="assets/media/images/course-marketing.jpg"
               alt="An index finger touches the screen of a digital watch with a white plastic wrist strap."
             />
-            <h4>Marketing</h4>
-            <p>COURSES</p>
-            <p>Analytics, Content Marketing, Mobile Marketing</p>
+            <div class="course-card-text">
+              <h4>Marketing</h4>
+              <p>COURSES</p>
+              <p>Analytics, Content Marketing, Mobile Marketing</p>
+            </div>
           </div>
         </div>
       </section>
-      <section>
+      <section class="section-thesis">
         <h3 class="center-text">Thesis exhibit</h3>
         <div class="section-template-primary">
           <div class="subsection-one">
@@ -263,7 +281,7 @@
       </section>
     </main>
     <footer>
-      <p>&copy;2016 Colmar Academy. All rights reserved</p>
+      <p>&copy; 2016 Colmar Academy. All rights reserved</p>
       <div>
         <ul>
           <li><a href="#" title="...">Terms</a></li>
