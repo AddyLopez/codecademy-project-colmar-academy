@@ -256,6 +256,10 @@ footer a {
     justify-content: space-evenly;
     width: 100%;
   }
+  nav.mobile-display img {
+    height: 37px;
+    width: 37px;
+  }
   .section-banner div.subsection-one {
     margin-bottom: 0;
   }
