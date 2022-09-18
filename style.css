@@ -220,9 +220,13 @@ footer p {
 footer a {
   font-size: 16px;
 }
-small {
-  padding-top: 16px;
-  padding-bottom: 32px;
+
+.attribution {
+  border-top: 1px solid hsl(0, 0%, 83%);
+  padding: 16px 0;
+}
+.attribution a,
+.attribution p {
   font-size: 16px;
 }
 
@@ -276,6 +280,7 @@ small {
   }
   div.mobile-display h4 {
     background-color: hsl(0, 0%, 83%);
+
     margin-bottom: 8px;
     padding: 16px 24px;
   }
