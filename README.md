@@ -4,7 +4,7 @@
 
 **_View the full-color edition of this project_**: [https://addylopez.github.io/codecademy-project-colmar-academy-full-color-edition/](https://addylopez.github.io/codecademy-project-colmar-academy-full-color-edition/)
 
-- GitHub repo to full-color edition: [https://github.com/AddyLopez/codecademy-project-colmar-academy-full-color-edition](https://github.com/AddyLopez/codecademy-project-colmar-academy-full-color-edition)
+- GitHub repo for full-color edition: [https://github.com/AddyLopez/codecademy-project-colmar-academy-full-color-edition](https://github.com/AddyLopez/codecademy-project-colmar-academy-full-color-edition)
 
 ## Description
 
