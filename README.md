@@ -15,10 +15,15 @@ Student project for Codecademy.
 ## Features
 
 - Semantic HTML (conscientiously coded with accessibility concerns, SEO, legibility, and maintainability in mind)
+
 - Responsive CSS (including responsive navigation and techniques such as flexbox, grid, CSS functions, and media queries, with content visibility selectively hidden based on the wireframes)
+
 - Follows wireframes for desktop and mobile display and includes client's media assets, thereby simulating a professional collaboration with a UX/UI designer
+
 - Accessibility rating by Lighthouse audit: 100/100 for desktop, 97/100 for mobile devices
+
 - Coded in VS Code using professional development workflow tools such as Live Server, GitHub Desktop, and GitHub Pages
+
 - A polished README using Markdown
 
 ## Wireframes
