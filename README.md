@@ -24,3 +24,7 @@ Student project for Codecademy.
 ## Wireframes
 
 ![Desktop and mobile wireframes for Colmar Academy layout and design](assets/wireframes/colmar-academy-wireframes-spec.png)
+
+## Preview
+
+![Colmar Academy Preview](assets/preview/colmar-academy-preview.png)
